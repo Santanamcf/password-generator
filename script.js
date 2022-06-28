@@ -31,35 +31,27 @@ var numbersQuestion = confirm("Would you like any numbers in your password?");
 var specCharactersQuestion = confirm("Would you like any special characters in your password?");
 
 if (upperCaseQuestion == true){
- // upperCase  [Math.floor(Math.random() * upperCase.length)]
 tempPass += upperCase  [Math.floor(Math.random() * upperCase.length)]
 }
 if (lowerCaseQuestion == true){
-//  lowerCase  [Math.floor(Math.random() * lowerCase.length)]
   tempPass += lowerCase  [Math.floor(Math.random() * lowerCase.length)]
 }
 if (numbersQuestion == true){
-//  numbers  [Math.floor(Math.random() * numbers.length)]
   tempPass += numbers  [Math.floor(Math.random() * numbers.length)]
 }
 if (specCharactersQuestion == true){
-//  specCharacters  [Math.floor(Math.random() * specCharacters.length)]
   tempPass += specCharacters  [Math.floor(Math.random() * specCharacters.length)]
 }
 for (i=0; i<= lengthOfPassword; i++)if (upperCaseQuestion == true){
-  // upperCase  [Math.floor(Math.random() * upperCase.length)]
  tempPass += upperCase  [Math.floor(Math.random() * upperCase.length)]
  }
  if (lowerCaseQuestion == true){
- //  lowerCase  [Math.floor(Math.random() * lowerCase.length)]
    tempPass += lowerCase  [Math.floor(Math.random() * lowerCase.length)]
  }
  if (numbersQuestion == true){
- //  numbers  [Math.floor(Math.random() * numbers.length)]
    tempPass += numbers  [Math.floor(Math.random() * numbers.length)]
  }
  if (specCharactersQuestion == true){
- //  specCharacters  [Math.floor(Math.random() * specCharacters.length)]
    tempPass += specCharacters  [Math.floor(Math.random() * specCharacters.length)]
  };
 return password = (tempPass)
@@ -69,4 +61,3 @@ return password = (tempPass)
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-//prompt("What would you like your password to be?")
