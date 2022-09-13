@@ -7,8 +7,11 @@ Project Description:
 
 Link to site: https://santanamcf.github.io/password-generator/
 
+
+
 Photo of deployed site:
-![alt text](Screen Shot 2022-06-27 at 10.32.52 PM.png)
+<img width="1289" alt="Screen Shot 2022-09-12 at 10 37 33 PM" src="https://user-images.githubusercontent.com/107505577/189818926-06c9e41a-c37d-42c0-95f2-b362b082a2fc.png">
+
 
 Credits: Worked with Gio Rojas and Chris Kang
 
